@@ -26,6 +26,7 @@ The folder ".\UCI HAR Dataset\train" must contain the following files:
 * X_train.txt
 * y_train.txt
 * subject_train.txt  
+
 So long as all these requirements are met, run each line in the script!
 
 
