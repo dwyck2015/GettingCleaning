@@ -1,3 +1,10 @@
+
+Created from the following dataset:
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+Important notes:
+- All variables are combinations of training and test data.
+
 subject
   Identifier of the person who carried out the experiment (integer)
     1
@@ -15,7 +22,8 @@ activity
     WALKING_UPSTAIRS
 
 tBodyAcc-mean-X
-
+  mean body linear acceleration in X direction (real number; seconds)
+  
 tBodyAcc-mean-Y
 
 tBodyAcc-mean-Z
