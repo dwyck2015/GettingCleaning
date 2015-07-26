@@ -1,4 +1,4 @@
-# README for Run_analysis.R
+# README for run_analysis.R
 
 ## Overview
 This markdown document describes the function the R script "run_analysis.R" prepared as the course project for "Getting and Cleaning Data". The "run_analysis.R" script is only script used in for the project and is henceforth referred to as the script.
