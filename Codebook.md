@@ -16,7 +16,7 @@ subject
     1  
     2  
     ...  
-    30  
+   30  
 
 activity  
   Activity performed by subject (character)  
