@@ -88,6 +88,9 @@ for (i in seq_along(merged$activity)) {
 ###### 4. Appropriately labels the data set (data.frame: merged) with descriptive variable names (simply clean up by removing "()" from existing label names). Reorder colums so that at subject & activity are the first two columns.
 ```{r}
 names(merged) <- gsub("\\(\\)","",names(merged))
+names(merged) <- gsub("-mean","Mean",names(merged))
+names(merged) <- gsub("-std","StDev",names(merged))
+names(merged) <- gsub("-","",names(merged))
 merged <- merged[,c(68,67,1:66)]
 ```
 
