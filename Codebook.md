@@ -20,12 +20,12 @@ Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ort
 
 ###### activity  
 * Activity performed by subject (character)  
-> LAYING  
-> SITTING  
-> STANDING  
-> WALKING  
-> WALKING_DOWNSTAIRS  
-> WALKING_UPSTAIRS  
+ + LAYING  
+ + SITTING  
+ + STANDING  
+ + WALKING  
+ + WALKING_DOWNSTAIRS  
+ + WALKING_UPSTAIRS  
 
 ###### tBodyAccMeanX  
 	mean body linear acceleration in X direction (real number; m/s)  
