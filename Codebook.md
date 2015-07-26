@@ -1,13 +1,17 @@
+# Codebook for tidyproject.txt  
 
-Created from the following dataset:
+Data file was created using the R script run_analysis.R  
 
-Created from the following dataset:
-Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+Created from the following dataset and for more information:
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012  
 
-Important notes:
-- All variables are combinations of training and test data.
+## Important notes:
+- All variables are combinations of training and test data.  
+- Each subject performed each activity multiple times. Values presented are average result across a particular activity separately for each subject participitant.  
 
-subject
+## Variable descriptions (column names)
+
+subject  
   Identifier of the person who carried out the experiment (integer)
     1
     2
@@ -23,200 +27,200 @@ activity
     WALKING_DOWNSTAIRS
     WALKING_UPSTAIRS
 
-tBodyAcc-mean-X
+tBodyAccMeanX
 	mean body linear acceleration in X direction (real number; m/s)
   
-tBodyAcc-mean-Y
+tBodyAccMeanY
 	mean body linear acceleration in Y direction (real number; m/s)
 
-tBodyAcc-mean-Z
+tBodyAccMeanZ
 	mean body linear acceleration in Z direction (real number; m/s)
 
-tBodyAcc-std-X
+tBodyAccStDevX
 	standard deviation of body linear acceleration in X direction (real number; m/s)
 
-tBodyAcc-std-Y
+tBodyAccStDevY
 	standard deviation of body linear acceleration in Y direction (real number; m/s)
 
-tBodyAcc-std-Z
+tBodyAccStDevZ
 	standard deviation of body linear acceleration in Z direction (real number; m/s)
 
-tGravityAcc-mean-X
+tGravityAccMeanX
 	mean gravity acceleration in X direction (real number; m/s)
 
-tGravityAcc-mean-Y
+tGravityAccMeanY
 	mean gravity acceleration in Y direction (real number; m/s)
 
-tGravityAcc-mean-Z
+tGravityAccMeanZ
 	mean gravity acceleration in Z direction (real number; m/s)
 
-tGravityAcc-std-X
+tGravityAccStDevX
 	standard deviation of gravity acceleration in X direction (real number; m/s)
 
-tGravityAcc-std-Y
+tGravityAccStDevY
 	standard deviation of gravity acceleration in Y direction (real number; m/s)
 
-tGravityAcc-std-Z
+tGravityAccStDevZ
 	standard deviation of gravity acceleration in Z direction (real number; m/s)
 
-tBodyAccJerk-mean-X
+tBodyAccJerkMeanX
 	mean body jerk signal in X direction (real number; m/s)
 
-tBodyAccJerk-mean-Y
+tBodyAccJerkMeanY
 	mean body jerk signal in Y direction (real number; m/s)
 
-tBodyAccJerk-mean-Z
+tBodyAccJerkMeanZ
 	mean body jerk signal in Z direction (real number; m/s)
 
-tBodyAccJerk-std-X
+tBodyAccJerkStDevX
 	standard deviation of body jerk signal in X direction (real number; m/s)
 
-tBodyAccJerk-std-Y
+tBodyAccJerkStDevY
 	standard deviation of body jerk signal in Y direction (real number; m/s)
 
-tBodyAccJerk-std-Z
+tBodyAccJerkStDevZ
 	standard deviation of body jerk signal in Z direction (real number; m/s)
 
-tBodyGyro-mean-X
+tBodyGyroMeanX
 	mean body angular velocity signal in X direction (real number; m/s)
 
-tBodyGyro-mean-Y
+tBodyGyroMeanY
 	mean body angular velocity signal in Y direction (real number; m/s)
 
-tBodyGyro-mean-Z
+tBodyGyroMeanZ
 	mean body angular velocity signal in Z direction (real number; m/s)
 
-tBodyGyro-std-X
+tBodyGyroStDevX
 	standard deviation of body angular velocity signal in X direction (real number; m/s)
 
-tBodyGyro-std-Y
+tBodyGyroStDevY
 	standard deviation of body angular velocity signal in Y direction (real number; m/s)
 
-tBodyGyro-std-Z
+tBodyGyroStDevZ
 	standard deviation of body angular velocity signal in Z direction (real number; m/s)
 
-tBodyGyroJerk-mean-X
+tBodyGyroJerkMeanX
 	mean body angular velocity jerk signal in X direction (real number; m/s)
 
-tBodyGyroJerk-mean-Y
+tBodyGyroJerkMeanY
 	mean body angular velocity jerk signal in Y direction (real number; m/s)
 
-tBodyGyroJerk-mean-Z
+tBodyGyroJerkMeanZ
 	mean body angular velocity jerk signal in Z direction (real number; m/s)
 
-tBodyGyroJerk-std-X
+tBodyGyroJerkStDevX
 	standard deviation of body angular velocity jerk signal in X direction (real number; m/s)
 
-tBodyGyroJerk-std-Y
+tBodyGyroJerkStDevY
 	standard deviation of body angular velocity jerk signal in Y direction (real number; m/s)
 
-tBodyGyroJerk-std-Z
+tBodyGyroJerkStDevZ
 	standard deviation of body angular velocity jerk signal in Z direction (real number; m/s)
 
-tBodyAccMag-mean
+tBodyAccMagMean
 	mean Euclidean norm magnitude of body linear acceleration (real number; m/s)
 
-tBodyAccMag-std
+tBodyAccMagStDev
 	standard deviation of Euclidean norm magnitude of body linear acceleration (real number; m/s)
 
-tGravityAccMag-mean
+tGravityAccMagMean
 	mean Euclidean norm magnitude of gravity acceleration (real number; m/s)
 
-tGravityAccMag-std
+tGravityAccMagStDev
 	standard deviation of Euclidean norm magnitude of gravity acceleration (real number; m/s)
 
-tBodyAccJerkMag-mean
+tBodyAccJerkMagMean
 	mean Euclidean norm magnitude of body jerk signal (real number; m/s)
 
-tBodyAccJerkMag-std
+tBodyAccJerkMagStDev
 	standard deviation of Euclidean norm magnitude of body jerk signal (real number; m/s)
 
-tBodyGyroMag-mean
+tBodyGyroMagMean
 	mean Euclidean norm magnitude of body angular velocity signal (real number; m/s)
 
-tBodyGyroMag-std
+tBodyGyroMagStDev
 	standard deviation of Euclidean norm magnitude of body angular velocity signal (real number; m/s)
 
-tBodyGyroJerkMag-mean
+tBodyGyroJerkMagMean
 	mean Euclidean norm magnitude of body angular velocity jerk signal (real number; m/s)
 
-tBodyGyroJerkMag-std
+tBodyGyroJerkMagStDev
 	standard deviation Euclidean norm magnitude of body angular velocity jerk signal (real number; m/s)
 
-fBodyAcc-mean-X
+fBodyAccMeanX
 	mean body linear acceleration in X direction (real number; Hz)
 
-fBodyAcc-mean-Y
+fBodyAccMeanY
 	mean body linear acceleration in Y direction (real number; Hz)
 
-fBodyAcc-mean-Z
+fBodyAccMeanZ
 	mean body linear acceleration in Z direction (real number; Hz)
 
-fBodyAcc-std-X
+fBodyAccStDevX
 	standard deviation of body linear acceleration in X direction (real number; Hz)
 
-fBodyAcc-std-Y
+fBodyAccStDevY
 	standard deviation of body linear acceleration in Y direction (real number; Hz)
 
-fBodyAcc-std-Z
+fBodyAccStDevZ
 	standard deviation of body linear acceleration in Z direction (real number; Hz)
 
-fBodyAccJerk-mean-X
+fBodyAccJerkMeanX
 	mean body jerk signal in X direction (real number; Hz)
 
-fBodyAccJerk-mean-Y
+fBodyAccJerkMeanY
 	mean body jerk signal in Y direction (real number; Hz)
 
-fBodyAccJerk-mean-Z
+fBodyAccJerkMeanZ
 	mean body jerk signal in Z direction (real number; Hz)
 
-fBodyAccJerk-std-X
+fBodyAccJerkStDevX
 	standard deviation of body jerk signal in X direction (real number; Hz)
 
-fBodyAccJerk-std-Y
+fBodyAccJerkStDevY
 	standard deviation of body jerk signal in Y direction (real number; Hz)
 
-fBodyAccJerk-std-Z
+fBodyAccJerkStDevZ
 	standard deviation of body jerk signal in Z direction (real number; Hz)
 
-fBodyGyro-mean-X
+fBodyGyroMeanX
 	mean body angular velocity signal in X direction (real number; Hz)
 
-fBodyGyro-mean-Y
+fBodyGyroMeanY
 	mean body angular velocity signal in Y direction (real number; Hz)
 
-fBodyGyro-mean-Z
+fBodyGyroMeanZ
 	mean body angular velocity signal in Z direction (real number; Hz)
 
-fBodyGyro-std-X
+fBodyGyroStDevX
 	standard deviation of body angular velocity signal in X direction (real number; Hz)
 
-fBodyGyro-std-Y
+fBodyGyroStDevY
 	standard deviation of body angular velocity signal in Y direction (real number; Hz)
 
-fBodyGyro-std-Z
+fBodyGyroStDevZ
 	standard deviation of body angular velocity signal in Z direction (real number; Hz)
 
-fBodyAccMag-mean
+fBodyAccMagMean
 	mean Euclidean norm magnitude of body linear acceleration (real number; Hz)
 
-fBodyAccMag-std
+fBodyAccMagStDev
 	standard deviation of Euclidean norm magnitude of body linear acceleration (real number; Hz)
 
-fBodyBodyAccJerkMag-mean
+fBodyBodyAccJerkMagMean
 	mean Euclidean norm magnitude of body jerk signal (real number; Hz)
 
-fBodyBodyAccJerkMag-std
+fBodyBodyAccJerkMagStDev
 	standard deviation of Euclidean norm magnitude of body jerk signal (real number; Hz)
 
-fBodyBodyGyroMag-mean
+fBodyBodyGyroMagMean
 	mean Euclidean norm magnitude of body angular velocity signal (real number; Hz)
 
-fBodyBodyGyroMag-std
+fBodyBodyGyroMagStDev
 	standard deviation of Euclidean norm magnitude of body angular velocity signal (real number; Hz)
 
-fBodyBodyGyroJerkMag-mean
+fBodyBodyGyroJerkMagMean
 	mean Euclidean norm magnitude of body angular velocity jerk signal (real number; Hz)
 
-fBodyBodyGyroJerkMag-std
+fBodyBodyGyroJerkMagStDev
 	standard deviation Euclidean norm magnitude of body angular velocity jerk signal (real number; Hz)
