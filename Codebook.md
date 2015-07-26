@@ -11,7 +11,7 @@ Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ort
 
 ## Variable descriptions (column names)
 
-subject  
+###### subject  
   Identifier of the person who carried out the experiment (integer)  
     1  
     2  
