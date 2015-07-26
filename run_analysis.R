@@ -35,6 +35,9 @@ for (i in seq_along(merged$activity)) {
 
 ### 4. Appropriately labels the data set with descriptive variable names. ###
 names(merged) <- gsub("\\(\\)","",names(merged))
+names(merged) <- gsub("-mean","Mean",names(merged))
+names(merged) <- gsub("-std","StDev",names(merged))
+names(merged) <- gsub("-","",names(merged))
 merged <- merged[,c(68,67,1:66)]
 
 ### 5. From the data set in step 4, creates a second, independent tidy data set ###
