@@ -12,20 +12,20 @@ Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ort
 ## Variable descriptions (column names)
 
 ###### subject  
-> Identifier of the person who carried out the experiment (integer)  
->> 1  
->> 2  
->> ...  
->> 30  
+* Identifier of the person who carried out the experiment (integer)  
+> 1  
+> 2  
+> ...  
+> 30  
 
 ###### activity  
-  Activity performed by subject (character)  
-    LAYING  
-    SITTING  
-    STANDING  
-    WALKING  
-    WALKING_DOWNSTAIRS  
-    WALKING_UPSTAIRS  
+* Activity performed by subject (character)  
+> LAYING  
+> SITTING  
+> STANDING  
+> WALKING  
+> WALKING_DOWNSTAIRS  
+> WALKING_UPSTAIRS  
 
 ###### tBodyAccMeanX  
 	mean body linear acceleration in X direction (real number; m/s)  
