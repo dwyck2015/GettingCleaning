@@ -3,11 +3,11 @@
 ## Overview
 This markdown document describes the function the R script "run_analysis.R" prepared as the course project for "Getting and Cleaning Data". The "run_analysis.R" script is only script used in for the project and is henceforth referred to as the script.
 The script summarizes wearable computing data collected from the accelerometers from Samsung Galaxy S smartphones.
-The script does the following:
-1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-3.Uses descriptive activity names to name the activities in the data set.
-4. Appropriately labels the data set with descriptive variable names. 
+The script does the following:  
+1. Merges the training and the test sets to create one data set.  
+2. Extracts only the measurements on the mean and standard deviation for each measurement.  
+3.Uses descriptive activity names to name the activities in the data set.  
+4. Appropriately labels the data set with descriptive variable names.  
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
@@ -25,7 +25,8 @@ The folder ".\UCI HAR Dataset\test" must contain the following files:
 The folder ".\UCI HAR Dataset\train" must contain the following files:
 * X_train.txt
 * y_train.txt
-* subject_train.txt
+* subject_train.txt  
+So long as all these requirements are met, run each line in the script!
 
 
 ## Packages required
